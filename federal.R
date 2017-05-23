@@ -23,3 +23,5 @@ senators <- read_csv(content(senator_request)) %>%
          State,
          ElectorateTelephone,
          `Parliamentary Title`)
+
+# TODO - export this to a JSON
